@@ -3,150 +3,359 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Meble na wymiar Grodzisk Mazowiecki - kuchnie i szafy | MADE Manufaktura Mebli</title>
-<meta name="description" content="Meble na wymiar w Grodzisku Mazowieckim: kuchnie, szafy i zabudowy pod Twoje wnętrze. Bezpłatny pomiar i projekt, jedna cena, montaż z gwarancją. Zadzwoń: 666 510 870.">
+<title>MADE Manufaktura Mebli — meble na wymiar, Grodzisk Mazowiecki</title>
+<meta name="description" content="MADE Manufaktura Mebli — kuchnie, szafy, garderoby i zabudowy na wymiar z Grodziska Mazowieckiego. Pomiar, projekt, wykonanie i montaż w jednym warsztacie. Ocena 5,0 w Google.">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta property="og:title" content="MADE Manufaktura Mebli — meble na wymiar, Grodzisk Mazowiecki">
+<meta property="og:description" content="Kuchnie, szafy, garderoby i zabudowy na wymiar. Pomiar, projekt, wykonanie i montaż w jednym warsztacie.">
+<meta property="og:image" content="img/logo-mark.png">
+<meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=2">
 </head>
 <body>
 
+<!-- PASEK GÓRNY -->
+<div class="topbar">
+  <div class="wrap">
+    <div class="tb-left">
+      <span class="tb-hide">Grodzisk Mazowiecki · Okrężna 9B/2</span>
+      <span class="tb-rate"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg> 5,0 w Google · 15 opinii</span>
+    </div>
+    <div><a href="tel:+48666510870"><b>+48 666 510 870</b></a></div>
+  </div>
+</div>
+
+<!-- NAWIGACJA -->
 <header class="nav">
   <div class="wrap nav-inner">
-    <a class="brand brand-has-logo" href="index.html"><img class="brand-logo" src="img/logo.jpg" alt="MADE Manufaktura Mebli"></a>
+    <a class="brand" href="index.html" aria-label="MADE Manufaktura Mebli — strona główna">
+      <img src="img/logo-dark.png" alt="MADE Manufaktura Mebli">
+    </a>
     <nav class="nav-links">
-      <a href="index.html" class="active">Strona główna</a>
-      <a href="realizacje.html">Realizacje</a>
+      <a href="index.html" class="active">Start</a>
       <a href="oferta.html">Oferta</a>
+      <a href="realizacje.html">Realizacje</a>
       <a href="o-nas.html">O nas</a>
       <a href="kontakt.html">Kontakt</a>
-      <a href="kontakt.html" class="btn btn-accent">Zapytaj o wycenę</a>
+      <a href="kontakt.html" class="btn btn-primary btn-sm">Bezpłatny pomiar</a>
     </nav>
     <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
 </header>
 
-<section class="hero-cine">
-  <img src="img/hero.jpg" alt="MADE Manufaktura Mebli - Od 9 lat robimy meble pod konkretne wnętrza. ">
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"><img src="img/g11.jpg" alt="Garderoba na wymiar w ciepłym drewnie z podświetleniem" fetchpriority="high"></div>
   <div class="wrap">
-    <div class="hero-copy">
-      <span class="eyebrow">Meble na wymiar · od 2017</span>
-      <h1>Od 9 lat robimy meble pod konkretne wnętrza. </h1>
-      <p class="lead">Kuchnie, szafy i zabudowy na wymiar - od 9 lat w Grodzisku Mazowieckim. Jeden warsztat, od pierwszej miary po ostatni front.</p>
-      <div class="hero-actions">
-        <a href="realizacje.html" class="btn btn-accent">Zobacz realizacje <span class="arr">→</span></a>
-        <a href="kontakt.html" class="btn btn-ghost" style="color:#fff;border-color:rgba(255,255,255,.45)">Zapytaj o wycenę</a>
-      </div>
-      <div style="margin-top:var(--space-6);color:#fff;font-weight:600;letter-spacing:.02em;opacity:.92"><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg> Ocena 5,0 w Google · 15 opinii</div>
+    <img class="hero-logo" src="img/logo-light.png" alt="MADE Manufaktura Mebli">
+    <h1>Meble, które <em>powstają</em> pod jedno wnętrze</h1>
+    <p class="lead">Kuchnie, szafy, garderoby i zabudowy na wymiar — z własnego warsztatu w Grodzisku Mazowieckim.</p>
+    <div class="hero-actions">
+      <a href="kontakt.html" class="btn btn-brass">Umów bezpłatny pomiar <span class="arr">→</span></a>
+      <a href="realizacje.html" class="btn btn-outline-light">Zobacz realizacje</a>
     </div>
   </div>
+  <div class="hero-scroll"><i></i>Przewiń</div>
 </section>
-<section class="strip" style="padding-block:0">
+
+<!-- LICZBY -->
+<section class="stats" style="padding-block:0">
   <div class="wrap">
-    <div class="item reveal"><div class="k">2017</div><div class="v">Od tego roku robimy meble na wymiar w Grodzisku Mazowieckim.</div></div>
-    <div class="item reveal"><div class="k">5,0</div><div class="v">Średnia ocena w Google z 15 opinii klientów.</div></div>
-    <div class="item reveal"><div class="k">Od A do Z</div><div class="v">Pomiar, projekt, wykonanie i montaż w jednych rękach.</div></div>
-    <div class="item reveal"><div class="k">Bez zobowiązań</div><div class="v">Pomiar i projekt z wyceną, zanim cokolwiek zamówimy.</div></div>
+    <div class="stat reveal"><div class="k">2017</div><div class="v">Od tego roku robimy meble na wymiar w Grodzisku Mazowieckim.</div></div>
+    <div class="stat reveal d1"><div class="k">5,0<small>/5</small></div><div class="v">Średnia ocena w Google z 15 opinii klientów.</div></div>
+    <div class="stat reveal d2"><div class="k">A–Z</div><div class="v">Pomiar, projekt, wykonanie i montaż w jednych rękach.</div></div>
+    <div class="stat reveal d3"><div class="k">0 zł</div><div class="v">Pomiar i projekt z wyceną — zanim cokolwiek zamówisz.</div></div>
   </div>
 </section>
+
+<!-- MANUFAKTURA -->
 <section>
   <div class="wrap split">
-    <div class="split-art reveal"><img src="img/g1.jpg" alt="MADE Manufaktura Mebli - realizacja" loading="lazy"></div>
-    <div class="split-copy reveal">
-      <span class="eyebrow">Kim jesteśmy</span>
-      <h2>Jak pracujemy</h2>
-      <p class="muted">Meble robimy od 9 lat. Zaczynamy od rozmowy u Ciebie w domu: gdzie co ma stać i jak chodzą drzwi obok.</p>
-      <p class="muted">Dopiero potem siadamy do projektu. Z warsztatu mebel wyjeżdża, kiedy pasuje co do milimetra - zły wymiar to nasz problem, nie Twój.</p>
-      <a href="o-nas.html" class="btn btn-ghost">Poznaj nas <span class="arr">→</span></a>
+    <div class="split-art reveal">
+      <div class="ph"><img src="img/g1.jpg" alt="Kuchnia na wymiar z drewnianym blatem" loading="lazy"></div>
+      <div class="badge"><div class="n">9 lat</div><div class="t">w jednym warsztacie</div></div>
+    </div>
+    <div class="split-copy reveal d1">
+      <span class="eyebrow">Manufaktura</span>
+      <h2>Nie katalog. Jedno wnętrze, jeden projekt.</h2>
+      <p class="muted">Każde zlecenie zaczynamy u Ciebie: mierzymy pomieszczenie, sprawdzamy piony, skosy i to, jak otwierają się drzwi obok. Dopiero potem siadamy do projektu.</p>
+      <p class="muted">Meble powstają w naszym warsztacie, a nie u podwykonawcy. Dzięki temu wiemy, z czego są zrobione i odpowiadamy za każdy milimetr — od korpusu po ostatni front.</p>
+      <ul class="ticks">
+        <li>Pomiar i projekt z wyceną bez zobowiązań</li>
+        <li>Płyty, fronty i okucia dobierane pod budżet</li>
+        <li>Montaż własną ekipą, w umówionym terminie</li>
+      </ul>
+      <a href="o-nas.html" class="link-more">Poznaj warsztat <span class="arr">→</span></a>
     </div>
   </div>
 </section>
-<section class="gateways-band">
+
+<!-- KATEGORIE -->
+<section style="padding-top:0">
   <div class="wrap">
-    <div class="gateways">
-      <a href="oferta.html" class="gateway reveal"><img src="img/g2.jpg" alt="Kuchnie na wymiar" loading="lazy"><span class="g-ttl">Kuchnie na wymiar</span></a>
-      <a href="oferta.html" class="gateway reveal"><img src="img/g4.jpg" alt="Szafy i garderoby" loading="lazy"><span class="g-ttl">Szafy i garderoby</span></a>
-      <a href="oferta.html" class="gateway reveal"><img src="img/g7.jpg" alt="Zabudowy wnęk i skosów" loading="lazy"><span class="g-ttl">Zabudowy wnęk i skosów</span></a>
+    <div class="head reveal">
+      <span class="eyebrow">Co robimy</span>
+      <h2>Meble do każdego pomieszczenia</h2>
+      <p>Najczęściej trafiają do nas kuchnie i garderoby — ale robimy każdą zabudowę, którą da się zaprojektować pod wymiar.</p>
+    </div>
+    <div class="cats">
+      <a class="cat big reveal" href="oferta.html#kuchnie">
+        <img src="img/g2.jpg" alt="Kuchnia na wymiar z wyspą" loading="lazy">
+        <div class="cat-in">
+          <div class="cat-n">01</div>
+          <h3>Kuchnie na wymiar</h3>
+          <p>Układ pod Twój tryb gotowania, fronty lakierowane lub w okleinie, sprzęt w zabudowie i blat dobrany do codziennego użytku.</p>
+          <span class="cat-more">Zobacz <span class="arr">→</span></span>
+        </div>
+      </a>
+      <a class="cat big reveal d1" href="oferta.html#garderoby">
+        <img src="img/g4.jpg" alt="Garderoba na wymiar z otwartą zabudową" loading="lazy">
+        <div class="cat-in">
+          <div class="cat-n">02</div>
+          <h3>Garderoby i szafy</h3>
+          <p>Zabudowa od podłogi po sufit: drążki, półki, szuflady i oświetlenie rozplanowane pod to, co naprawdę w nich trzymasz.</p>
+          <span class="cat-more">Zobacz <span class="arr">→</span></span>
+        </div>
+      </a>
+      <a class="cat small reveal" href="oferta.html#zabudowy">
+        <img src="img/g12.jpg" alt="Zabudowa przedpokoju na wymiar" loading="lazy">
+        <div class="cat-in">
+          <div class="cat-n">03</div>
+          <h3>Przedpokoje i wnęki</h3>
+          <p>Skosy, wnęki i wąskie korytarze — miejsca, w których meble z sklepu nigdy nie pasują.</p>
+          <span class="cat-more">Zobacz <span class="arr">→</span></span>
+        </div>
+      </a>
+      <a class="cat small reveal d1" href="oferta.html#szafy">
+        <img src="img/g8.jpg" alt="Szafa w zabudowie" loading="lazy">
+        <div class="cat-in">
+          <div class="cat-n">04</div>
+          <h3>Szafy w zabudowie</h3>
+          <p>Fronty przesuwne lub uchylne, cicho domykane, dopasowane do ściany co do milimetra.</p>
+          <span class="cat-more">Zobacz <span class="arr">→</span></span>
+        </div>
+      </a>
+      <a class="cat small reveal d2" href="oferta.html#biuro">
+        <img src="img/g9.jpg" alt="Zabudowa gabinetu z biurkiem na wymiar" loading="lazy">
+        <div class="cat-in">
+          <div class="cat-n">05</div>
+          <h3>Gabinet i biuro</h3>
+          <p>Biurka, zabudowy pod dokumenty i miejsce do pracy wpasowane w domowy salon lub firmę.</p>
+          <span class="cat-more">Zobacz <span class="arr">→</span></span>
+        </div>
+      </a>
     </div>
   </div>
 </section>
+
+<!-- PROCES -->
+<section class="process">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">Jak pracujemy</span>
+      <h2>Pięć kroków od pomiaru do montażu</h2>
+      <p>Wiesz, co się dzieje na każdym etapie i ile to kosztuje, zanim zamówimy pierwszą płytę.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><span class="n">01</span><h3>Pomiar</h3><p>Przyjeżdżamy na miejsce, mierzymy i rozmawiamy o tym, jak korzystasz z pomieszczenia.</p><span class="free">bezpłatnie</span></div>
+      <div class="step reveal d1"><span class="n">02</span><h3>Projekt</h3><p>Rysujemy układ i pokazujemy, jak mebel wpisze się we wnętrze. Poprawki wprowadzamy do skutku.</p><span class="free">bezpłatnie</span></div>
+      <div class="step reveal d2"><span class="n">03</span><h3>Wycena</h3><p>Jedna cena za komplet: materiał, okucia, wykonanie i montaż. Bez dopisków po fakcie.</p></div>
+      <div class="step reveal d3"><span class="n">04</span><h3>Wykonanie</h3><p>Meble powstają w naszym warsztacie, na sprawdzonych płytach i okuciach.</p></div>
+      <div class="step reveal d3"><span class="n">05</span><h3>Montaż</h3><p>Wnosimy, składamy i regulujemy na miejscu. Zostawiamy posprzątane.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- REALIZACJE -->
 <section>
   <div class="wrap">
     <div class="head reveal">
       <span class="eyebrow">Realizacje</span>
       <h2>Z ostatnich montaży</h2>
-      <p>Kuchnie, garderoby i zabudowy w takim wykonaniu robimy najczęściej. Zdjęcia z własnych montaży pokazujemy na miejscu, przy pomiarze.</p>
+      <p>Kuchnie, garderoby i zabudowy w takim wykonaniu robimy najczęściej. Pełne albumy pokazujemy na miejscu, przy pomiarze.</p>
     </div>
-    <div class="gallery">
-      <div class="tile t-two3 reveal"><img src="img/g3.jpg" alt="Kuchnia z barkiem" loading="lazy"><div class="cap">Kuchnia z barkiem</div></div>
-      <div class="tile t-third reveal"><img src="img/g5.jpg" alt="Garderoba w jasnym drewnie" loading="lazy"><div class="cap">Garderoba w jasnym drewnie</div></div>
-      <div class="tile t-third reveal"><img src="img/g6.jpg" alt="Zabudowa przedpokoju" loading="lazy"><div class="cap">Zabudowa przedpokoju</div></div>
-      <div class="tile t-third reveal"><img src="img/g8.jpg" alt="Szafa w zabudowie" loading="lazy"><div class="cap">Szafa w zabudowie</div></div>
-      <div class="tile t-third reveal"><img src="img/g9.jpg" alt="Zabudowa gabinetu" loading="lazy"><div class="cap">Zabudowa gabinetu</div></div>
+    <div class="gal">
+      <div class="gitem g-6 reveal"><img src="img/g3.jpg" alt="Kuchnia z barkiem" loading="lazy"><div class="cap"><b>Kuchnia z barkiem</b><span>Grodzisk Mazowiecki</span></div></div>
+      <div class="gitem g-3 reveal d1"><img src="img/g5.jpg" alt="Garderoba w jasnym drewnie" loading="lazy"><div class="cap"><b>Garderoba</b><span>Jasne drewno</span></div></div>
+      <div class="gitem g-3 reveal d2"><img src="img/g13.jpg" alt="Kuchnia z ciemnym blatem" loading="lazy"><div class="cap"><b>Kuchnia w bieli</b><span>Blat spiekany</span></div></div>
+      <div class="gitem g-4 reveal"><img src="img/g11.jpg" alt="Garderoba z podświetleniem" loading="lazy"><div class="cap"><b>Garderoba z podświetleniem</b><span>Zabudowa skosu</span></div></div>
+      <div class="gitem g-4 reveal d1"><img src="img/g6.jpg" alt="Zabudowa przedpokoju" loading="lazy"><div class="cap"><b>Zabudowa przedpokoju</b><span>Fronty bezuchwytowe</span></div></div>
+      <div class="gitem g-4 reveal d2"><img src="img/g10.jpg" alt="Szafa z frontami w ciemnym dekorze" loading="lazy"><div class="cap"><b>Szafa wnękowa</b><span>Ciemny dekor</span></div></div>
     </div>
-    <div style="margin-top:var(--space-7)" class="reveal"><a href="realizacje.html" class="btn btn-accent">Pełna galeria <span class="arr">→</span></a></div>
+    <div style="margin-top:var(--s7)" class="reveal"><a href="realizacje.html" class="btn btn-ghost">Pełna galeria realizacji <span class="arr">→</span></a></div>
   </div>
 </section>
-<section class="opinie">
-  <div class="wrap">
-    <div class="head reveal">
-      <span class="eyebrow">Opinie</span>
-      <h2>Co mówią klienci</h2>
-      <p>Ocena 5,0 w Google z 15 opinii. Poniżej fragmenty tego, co napisali ludzie, dla których robiliśmy meble.</p>
+
+<!-- MATERIAŁY -->
+<section style="padding-top:0">
+  <div class="wrap split rev">
+    <div class="split-art reveal">
+      <div class="ph" style="aspect-ratio:1/1"><img src="img/about.jpg" alt="Próbniki dekorów i frontów meblowych" loading="lazy"></div>
     </div>
-    <div class="opinie-grid">
-      <figure class="op-card reveal"><span class="op-star"><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg></span><blockquote>Wizualizacja przygotowana przez zespół architektów została oddana w 200%. Salon optyczny wygląda jak z katalogu. Wsparcie w wyborach, profesjonalizm, poczucie stylu, estetyki i dbałość o szczegóły to cechy, na które można liczyć podczas współpracy.</blockquote><span class="op-autor">Aleksandra S.</span></figure>
-      <figure class="op-card reveal"><span class="op-star"><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg></span><blockquote>Zamówiłam zabudowę przedpokoju. Na etapie rozmów pan Paweł z uwagą słuchał i jednocześnie doradzał korzystniejsze rozwiązania. Meble zostały pięknie i estetycznie wykonane oraz perfekcyjnie dopasowane. Wszystko wykonane w terminie.</blockquote><span class="op-autor">Małgorzata Z.</span></figure>
-      <figure class="op-card reveal"><span class="op-star"><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg></span><blockquote>Zleciłam wykonanie kuchni na wymiar i efekt końcowy przerósł moje oczekiwania. Meble są perfekcyjnie dopasowane, estetyczne i bardzo solidne. Całość została wykonana w ustalonym terminie, bez żadnych opóźnień.</blockquote><span class="op-autor">Magdalena W.</span></figure>
-    </div>
-    <p class="op-zrodlo reveal">Opinie pochodzą z wizytówki Google MADE Manufaktura Mebli.</p>
-  </div>
-</section>
-<section class="cta">
-  <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Współpraca</span>
-      <h2>Zacznijmy od krótkiej rozmowy.</h2>
-      <p>Napisz lub zadzwoń - powiemy, co i jak, bez zobowiązań.</p>
-    </div>
-    <div class="cta-actions reveal">
-      <a href="kontakt.html" class="btn btn-light">Zapytaj o wycenę <span class="arr">→</span></a>
-      <a href="tel:+48666510870" class="btn btn-ghost" style="color:#fff;border-color:rgba(255,255,255,.3)">+48 666 510 870</a>
+    <div class="split-copy reveal d1">
+      <span class="eyebrow">Materiały</span>
+      <h2>Dekor dobieramy u Ciebie, przy oknie</h2>
+      <p class="muted">Próbniki przywozimy na pomiar — kolor płyty inaczej wygląda w salonie, a inaczej w sklepie. Podpowiadamy, co się sprawdzi przy dzieciach, a co przy blacie zalewanym słońcem.</p>
+      <ul class="ticks">
+        <li>Płyty laminowane, lakier matowy i fornir</li>
+        <li>Blaty laminowane, spiekane i drewniane</li>
+        <li>Okucia z cichym domykiem i prowadnice pełnego wysuwu</li>
+        <li>Oświetlenie LED wbudowane w zabudowę</li>
+      </ul>
+      <a href="oferta.html" class="link-more">Zobacz pełną ofertę <span class="arr">→</span></a>
     </div>
   </div>
 </section>
 
+<!-- MARKI -->
+<section class="brands" style="padding-block:0">
+  <div class="wrap">
+    <span class="b">Egger</span>
+    <span class="b">Kronospan</span>
+    <span class="b">Pfleiderer</span>
+    <span class="b">Blum</span>
+    <span class="b">Hettich</span>
+    <span class="b">Rehau</span>
+  </div>
+  <p class="brands-note">Materiały i okucia, na których pracujemy na co dzień</p>
+</section>
+
+<!-- OPINIE -->
+<section class="reviews">
+  <div class="wrap">
+    <div class="head center reveal">
+      <span class="eyebrow no-rule">Opinie</span>
+      <h2>Co mówią klienci</h2>
+      <p>Ocena 5,0 w Google z 15 opinii. Poniżej fragmenty tego, co napisali ludzie, dla których robiliśmy meble.</p>
+    </div>
+    <div class="rev-grid">
+      <figure class="rev reveal">
+        <div class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg></div>
+        <blockquote>Zleciłam wykonanie kuchni na wymiar i efekt końcowy przerósł moje oczekiwania. Meble są perfekcyjnie dopasowane, estetyczne i bardzo solidne. Całość została wykonana w ustalonym terminie, bez żadnych opóźnień.</blockquote>
+        <figcaption class="who">Magdalena W.<span>Kuchnia na wymiar</span></figcaption>
+      </figure>
+      <figure class="rev reveal d1">
+        <div class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg></div>
+        <blockquote>Zamówiłam zabudowę przedpokoju. Na etapie rozmów pan Paweł z uwagą słuchał i jednocześnie doradzał korzystniejsze rozwiązania. Meble zostały pięknie i estetycznie wykonane oraz perfekcyjnie dopasowane. Wszystko wykonane w terminie.</blockquote>
+        <figcaption class="who">Małgorzata Z.<span>Zabudowa przedpokoju</span></figcaption>
+      </figure>
+      <figure class="rev reveal d2">
+        <div class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z"/></svg></div>
+        <blockquote>Wizualizacja przygotowana przez zespół została oddana w 200%. Wsparcie w wyborach, profesjonalizm, poczucie stylu i dbałość o szczegóły to cechy, na które można liczyć podczas współpracy.</blockquote>
+        <figcaption class="who">Aleksandra S.<span>Zabudowa wnętrza</span></figcaption>
+      </figure>
+    </div>
+    <p class="rev-src reveal">Opinie pochodzą z wizytówki Google MADE Manufaktura Mebli</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="wrap">
+    <div class="head center reveal">
+      <span class="eyebrow no-rule">Pytania</span>
+      <h2>Zanim zadzwonisz</h2>
+    </div>
+    <div class="faq reveal">
+      <details open>
+        <summary>Ile kosztuje pomiar i projekt?</summary>
+        <p>Nic. Przyjeżdżamy, mierzymy i przygotowujemy projekt razem z wyceną — dopiero wtedy decydujesz, czy wchodzimy w temat.</p>
+      </details>
+      <details>
+        <summary>Jak długo czeka się na meble?</summary>
+        <p>Termin podajemy przy wycenie, bo zależy od zakresu i dostępności frontów. Realny termin dostajesz na piśmie razem z ceną — nie przesuwamy go po fakcie.</p>
+      </details>
+      <details>
+        <summary>Czy dojeżdżacie poza Grodzisk Mazowiecki?</summary>
+        <p>Tak. Pracujemy w Grodzisku i okolicy — Milanówek, Podkowa Leśna, Brwinów, Żyrardów, Pruszków oraz zachodnie dzielnice Warszawy.</p>
+      </details>
+      <details>
+        <summary>Czy zajmujecie się też sprzętem AGD i blatami?</summary>
+        <p>Tak. Zabudowa sprzętu, blat i oświetlenie to część projektu — możesz kupić wszystko u nas albo dostarczyć własne, wtedy uwzględniamy to w wymiarach.</p>
+      </details>
+      <details>
+        <summary>Co, jeśli coś nie pasuje po montażu?</summary>
+        <p>Poprawiamy. Mebel wyjeżdża z warsztatu wtedy, kiedy pasuje co do milimetra — a jeśli coś wymaga regulacji, wracamy i dopinamy temat.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="wrap">
+    <img class="cta-logo reveal" src="img/logo-light.png" alt="">
+    <h2 class="reveal">Zacznijmy od pomiaru</h2>
+    <p class="reveal d1">Zadzwoń albo napisz — umówimy termin i przyjedziemy z próbnikami. Pomiar, projekt i wycena bez żadnych zobowiązań.</p>
+    <div class="cta-actions reveal d2">
+      <a href="tel:+48666510870" class="btn btn-light">+48 666 510 870</a>
+      <a href="kontakt.html" class="btn btn-outline-light">Formularz kontaktowy <span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- STOPKA -->
 <footer>
   <div class="wrap">
     <div class="foot-grid">
       <div class="foot-brand">
-        <div class="name">MADE Manufaktura Mebli</div>
-        <p>Kuchnie, szafy i zabudowy na wymiar - od 9 lat w Grodzisku Mazowieckim. Jeden warsztat, od pierwszej miary po ostatni front.</p>
+        <img src="img/logo-light.png" alt="MADE Manufaktura Mebli">
+        <p>Kuchnie, szafy, garderoby i zabudowy na wymiar. Własny warsztat w Grodzisku Mazowieckim — od pierwszej miary po ostatni front.</p>
+        <div class="foot-social">
+          <a href="https://www.facebook.com/MadeManufakturaMebli" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 10-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0022 12z"/></svg></a>
+          <a href="https://www.instagram.com/made.furniture/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.5.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.5-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4a3.8 3.8 0 01-1.4-.9 3.8 3.8 0 01-.9-1.4c-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.5.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.6a6.2 6.2 0 100 12.4 6.2 6.2 0 000-12.4zm0 10.2a4 4 0 110-8 4 4 0 010 8zm6.4-10.4a1.4 1.4 0 11-2.9 0 1.4 1.4 0 012.9 0z"/></svg></a>
+        </div>
       </div>
       <div class="foot-col">
-        <h4>Nawigacja</h4>
-        <a href="index.html">Strona główna</a>
-        <a href="realizacje.html">Realizacje</a>
+        <h4>Strona</h4>
+        <a href="index.html">Start</a>
         <a href="oferta.html">Oferta</a>
+        <a href="realizacje.html">Realizacje</a>
         <a href="o-nas.html">O nas</a>
         <a href="kontakt.html">Kontakt</a>
       </div>
       <div class="foot-col">
+        <h4>Oferta</h4>
+        <a href="oferta.html#kuchnie">Kuchnie na wymiar</a>
+        <a href="oferta.html#garderoby">Garderoby i szafy</a>
+        <a href="oferta.html#zabudowy">Przedpokoje i wnęki</a>
+        <a href="oferta.html#biuro">Gabinet i biuro</a>
+      </div>
+      <div class="foot-col">
         <h4>Kontakt</h4>
         <a href="tel:+48666510870">+48 666 510 870</a>
-        <p>Okrężna 9B/2, 05-825 Grodzisk Mazowiecki</p>
+        <a href="mailto:biuro@mademanufaktura.pl">biuro@mademanufaktura.pl</a>
+        <p>ul. Okrężna 9B/2<br>05-825 Grodzisk Mazowiecki</p>
         <a href="https://maps.app.goo.gl/CRPHok8qt2cSc8wXA" target="_blank" rel="noopener">Jak dojechać →</a>
       </div>
     </div>
     <div class="foot-bot">
       <span>© 2026 MADE Manufaktura Mebli</span>
-      <span>Projekt strony: Krzysztof Brzeziński</span>
+      <span>Wersja demonstracyjna · projekt strony: Impulseo</span>
     </div>
   </div>
 </footer>
 
+<!-- DYMKI -->
+<div class="float">
+  <a class="f-tel" href="tel:+48666510870" aria-label="Zadzwoń"><span class="tip">Zadzwoń</span><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.3 2.2z"/></svg></a>
+  <a class="f-ig" href="https://www.instagram.com/made.furniture/" target="_blank" rel="noopener" aria-label="Instagram"><span class="tip">Instagram</span><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.5.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.5-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4a3.8 3.8 0 01-1.4-.9 3.8 3.8 0 01-.9-1.4c-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.5.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.6a6.2 6.2 0 100 12.4 6.2 6.2 0 000-12.4zm0 10.2a4 4 0 110-8 4 4 0 010 8zm6.4-10.4a1.4 1.4 0 11-2.9 0 1.4 1.4 0 012.9 0z"/></svg></a>
+  <a class="f-fb" href="https://www.facebook.com/MadeManufakturaMebli" target="_blank" rel="noopener" aria-label="Facebook"><span class="tip">Facebook</span><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 10-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0022 12z"/></svg></a>
+</div>
 
-<script src="assets/main.js"></script>
+<!-- LIGHTBOX -->
+<div class="lb" role="dialog" aria-label="Podgląd zdjęcia">
+  <button class="lb-x" aria-label="Zamknij">×</button>
+  <button class="lb-prev" aria-label="Poprzednie">‹</button>
+  <img alt="">
+  <button class="lb-next" aria-label="Następne">›</button>
+  <div class="lb-cap"></div>
+</div>
+
+<script src="assets/main.js?v=2"></script>
 </body>
 </html>
